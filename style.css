@@ -17,7 +17,37 @@ header{
 .menu-header{
     background-color: white;
     height: 10vh;
+    display: flex;
+    justify-content: space-between;
 }
+
+.menu-sx{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.menu-dx{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+img{
+    padding-bottom: 10px;
+    height: 28px;
+    width: 100px;
+}
+
 
 .content-header{
     background-color:#b4d0e7;
@@ -25,7 +55,22 @@ header{
     padding-top: 80px;
 }
 
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
 
+button{
+    margin-left: 20px;
+    text-align: center;
+    width: 55px;
+    height: 20px;
+    color: white;
+    background-color: #0061ff;
+    border: #0061ff;
+
+}
 
 .lavoro{
     width: 1000px;
