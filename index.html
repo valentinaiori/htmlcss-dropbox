@@ -42,20 +42,14 @@
                             <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p> 
                             <button id="button-header">Inizia la tua prova gratuita</button>
                              <p>Annulla in qualsiasi momento</p>
-                             <i class="fa-solid fa-arrow-down"></i>
+                             <i class="fa-solid fa-arrow-down" id="freccetta"></i>
                         </div>
                         <div id="img-header ">
                             <img id="img-header"src="img/jumbo.png" alt="Proposta per il cliente">
-                        </div>
-                        
-                    </div>
-                    
-                        
+                        </div> 
+                    </div>    
                 </div>
-            
-
     </div>
-        
        
     </header>
     <!-- / HEADER -->
@@ -65,11 +59,186 @@
     <main>
         <div class="container-main">
             <section class="first-section">
-                <h2>Trova il business che fa per te </h2>
+                <h2>Trova il piano business che fa per te </h2>
+                <div class="select-payment">
+                    <input type="radio" name="payment" value="mensile">
+                    <label for="monthly pay">Pagamento mensile</label>
+                    <input type="radio" name="payment" value="annuale">
+                    <label for="year-pay">Pagamento annuale</label>
+                </div>
+
+                <div class="flex column-container">
+                    <div class="column">
+                        <div class="intestazione-colonna-testo">
+                            <i class="fa-solid fa-user"></i> Singolo
+                        </div>
+
+                        <div class="tariffa">
+                            <h3>Professional</h3>
+                            <p><strong>&euro; 12.00</strong></p>
+                            <p id="payment-month"> /mese </p>
+                        </div>
+
+                        <div class="caratteristiche">
+                            <div id="features">
+                                <i class="fa-solid fa-user"></i> 1 utente
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiaviazione e sicuro
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                            </div>
+                                 
+                            <div class="prova">
+                                <button id="button-header" >Prova gratis per 30 giorni </button>
+                                <span>oppure<a id="link-tariffa" href="#" >acquista ora</a></span>
+                            </div>
+                                
+                            <div class="line">
+                                <hr>
+                            </div>
+
+                            <div class="highlights">
+                                <div>
+                                    <h4>Punti salienti del piano</h4>
+                                </div>
+                                <div id="features">
+                                    <i class="fa-solid fa-check" id="check"></i> Invia file fino a 100 GB con Dropbox Transfert
+                                </div>
+                                <div id="features">
+                                    <i class="fa-solid fa-check" id="check"></i> Cartelle offline su dispositivi mobili 
+                                </div>
+                            </div>
+                    </div>        
+                </div>
+
+            
+                <div class="column">
+                    <div class="intestazione-colonna-testo">
+                        <i class="fa-solid fa-users"></i> Team
+                    </div>
+
+                    <div class="tariffa">
+                        <h3>Advanced</h3>
+                        <p><strong>&euro; 18.00</strong></p>
+                        <p id="payment-month"> /utente/mese </p>
+                    </div>
+
+                    <div class="caratteristiche">
+                        <div id="features">
+                            <i class="fa-solid fa-user"></i> 3 utenti o più
+                        </div>
+                        <div id="features">
+                            <i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team
+                        </div>
+                        <div id="features">
+                            <i class="fa-solid fa-share-nodes"></i> Sofisticante funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                        </div>
+                             
+                        <div class="prova">
+                            <button id="button-header" >Prova gratis per 30 giorni </button>
+                            <span>oppure<a id="link-tariffa" href="#" >acquista ora</a></span>
+                        </div>
+                            
+                        <div class="line">
+                            <hr>
+                        </div>
+
+                        <div class="highlights">
+                            <div>
+                                <h4>Punti salienti del piano</h4>
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Nessun limite di spazio per i file
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Cartelle offline su dispositivi mobili 
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Risparmio del 50% rispetto alle iscrizioni singole
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Possibilità di inserire nuovi membri del team 
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Gestione dei permessi in base ai ruoli 
+                            </div>
+                        </div>
+                          
+
+                </div>
+                    
+            </div>
+            
+                <div class="column">
+                    <div class="intestazione-colonna-testo">
+                        <i class="fa-solid fa-building"></i> Azienda
+                    </div>
+
+                    <div class="tariffa">
+                        <h3>Enterprise</h3>
+                        <p><strong>Contattaci</strong></p>
+                        <p id="payment-month"> - </p>
+                    </div>
+
+                    <div class="caratteristiche">
+                        <div id="features">
+                            <i class="fa-solid fa-user"></i> 10 o più utenti
+                        </div>
+                        <div id="features">
+                            <i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda
+                        </div>
+                        <div id="features">
+                            <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                        </div>
+                             
+                        <div class="prova">
+                            <button id="button-header">Contattaci</button>
+                            <span>oppure<a id="link-tariffa" href="#" >acquista ora</a></span>
+                        </div>
+                            
+                        <div class="line">
+                            <hr>
+                        </div>
+
+                        <div class="highlights">
+                            <div>
+                                <h4>Punti salienti del piano</h4>
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Cartelle offline su dispositivi mobili
+                            </div>
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Servizio assistenza 24/h
+                            <div id="features">
+                                <i class="fa-solid fa-check" id="check"></i> Possibilità di personalizzazione totale
+                            </div>
+                        </div>
+                          
+
+                </div>
+                    
+            </div>
+
+
+
+            
+
+
+
+
+        </div>
+                
+            
+
+        
             </section>
     
             <section class="second-section">
-                <h2>Entra in contatto </h2>
+                <div>
+                    <img id="img-partner" src="img/partner.png" alt="Immagine partner">
+                </div>
             </section>
     
             <section class="third-section">
@@ -155,7 +324,7 @@
 
         </div>
 
-        <hr>
+    
 
 
         

@@ -8,8 +8,14 @@ body{
     font-family: sans-serif;
 }
 
+/* flex utils */
+
+.flex{
+    display: flex;
+}
 
 /* HEADER */
+
 
 .menu-header{
     background-color: white;
@@ -67,26 +73,28 @@ button{
 }
 
 .proposta-cliente{
-    width: 1000px;
-    height: 500px;
+    width: 1200px;
+    height: 520px;
+    
 }
 
 .content-header-flex{
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 75px;
     padding-bottom: 40px;
     padding-left: 60px;
     padding-right: 60px;
+    text-align: center;
 
 }
 
 #text-header{
-    padding-left: 70px;
+    padding-left: 150px;
 }
 
 
@@ -100,18 +108,17 @@ h1{
     margin-bottom: 20px;
     margin-left: -2px;
     text-align: center;
-
 }
 
 #img-header{
     width: 570px;
     height: 355px;
-    margin-left: 30px;
+    margin-right: 160px;
 }
 
-i{
+#freccetta{
     font-size: 2.0rem;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 p{
@@ -124,26 +131,121 @@ p{
 
 /* MAIN */
 
-main{
-
-    
-}
 
 .container-main{
     background-color: white;
-    width: 800px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
+ /* first section */
 
 .first-section{
-    background-color: aqua;
-    height: 500px;
+    background-color: white;
+    width: 800px;
+    color: black;
+    padding-top: 100px;
 }
+
+h2{
+    font-size: 2.0rem;
+}
+
+.select-payment{
+    padding-top: 40px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 );
+    border: 1px solid #d0d0d3;
+    margin: 35px;
+    height: 800px;
+    font-size: 0.8rem;
+  }
+  .column-container{
+    margin-left: -35px;
+    margin-right: -50px;
+  }
+
+
+.intestazione-colonna-testo{
+    width: 100%;
+    border: 0.5px solid #d0d0d3;
+    padding: 10px;
+    text-align: center;
+}
+
+.select-payment{
+    font-size: 0.8rem;
+}
+
+
+.tariffa{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+
+#payment-month{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+
+h3{
+    font-size: 1.4rem;
+}
+
+
+#features{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.prova{
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+
+#link-tariffa{
+    color: #0000ee;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+
+.line{
+    padding-left: 20px;
+    padding-right: 130px;
+    color: #d0d0d3;
+    padding-bottom: 50px;
+}
+
+#check{
+    color: #0063ff;
+}
+
+h4{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
 
 .second-section{
-    background-color: pink;
-    height: 500px;
+    background-color: aqua;
+    height: 800px;
 }
 
+#img-partner {
+    width: 400px;
+    height: 300px;
+}
 .third-section{
     background-color: red;
     height: 500px;
@@ -208,7 +310,5 @@ h3{
 }
 
 
-hr{
-    width: 80px;
-}
+
 /* / FOOTER */
