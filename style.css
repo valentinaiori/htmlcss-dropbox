@@ -137,6 +137,7 @@ p{
     max-width: 1000px;
     margin: 0 auto;
 }
+
  /* first section */
 
 .first-section{
@@ -163,6 +164,7 @@ h2{
     height: 800px;
     font-size: 0.8rem;
   }
+
   .column-container{
     margin-left: -35px;
     margin-right: -50px;
@@ -171,7 +173,7 @@ h2{
 
 .intestazione-colonna-testo{
     width: 100%;
-    border: 0.5px solid #d0d0d3;
+    border: 0.1px solid #d0d0d3;
     padding: 10px;
     text-align: center;
 }
@@ -180,12 +182,10 @@ h2{
     font-size: 0.8rem;
 }
 
-
 .tariffa{
     margin-top: 20px;
     padding-right: 20px;
 }
-
 
 #payment-month{
     padding-top: 15px;
@@ -232,14 +232,32 @@ h4{
 }
 
 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #d0d0d3;
+    height: 200px;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    width: 800px;
+}
 
+.team{
+    padding-top: 10px;
+    width: 100%;
+    border: 0.1px solid #d0d0d3;
+    text-align: center;
+}
 
+/* /first section */
 
-
+/* second section */
 
 .second-section{
     background-color: aqua;
     height: 800px;
+    padding-top: 100px;
 }
 
 #img-partner {
