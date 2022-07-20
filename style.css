@@ -45,7 +45,7 @@ body{
     font-size: 15px;
 }
 
-img{
+#img-header{
     padding-bottom: 10px;
     height: 28px;
     width: 100px;
@@ -118,7 +118,7 @@ h1{
     opacity: 0.8;
 }
 
-#img-header{
+#img-header-2{
     width: 570px;
     height: 355px;
     margin-right: 160px;
@@ -129,7 +129,7 @@ h1{
     margin-top: 50px;
 }
 
-p{
+p {
     font-size: 0.9rem;
 }
 
@@ -251,14 +251,21 @@ h3{
     width: 800px;
 }
 
+#intestazione-enterprise{
+    width: 800px;
+}
+
 .enterprise{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 20px;
+    
 }
 
 #title-enterprise{
    margin-right: 455px; 
+   
 }
 
 #text-enterprise{
@@ -266,9 +273,11 @@ h3{
 }
 
 #text-enterprise-2{
-    margin-left: 5px;
+    margin-left: 3px;
     text-align: center;
+    margin-top: 20px;
 }
+
 .team{
     padding-top: 10px;
     width: 100%;
@@ -284,6 +293,7 @@ h3{
     border: #0061ff;
     color: white;
     margin-right: 100px;
+    margin-left: -33px;
 }
 
 #button-contatta:hover{
@@ -319,6 +329,20 @@ h3{
     height: 340px;
     margin-top: 100px;
 }
+
+#button-partner-dropbox{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+#button-partner-dropbox:hover{
+    opacity: 0.8;
+}
+
 
 /* /second section */
 
@@ -403,11 +427,20 @@ h3{
     min-height: 30vw;
 }
 
-#img-fifth-section{
+#img-fifth-section-center{
     width: 200px;
     height: 100px;
 }
 
+#img-fifth-section{
+    width: 100px;
+    height: 150px;
+}
+
+#img-florida{
+    width: 100px;
+    height: 50px;
+}
 .square{
     width: 15vw;
     height: 15vw;
@@ -420,9 +453,6 @@ h3{
     align-items: flex-start;
 }
 
-.square img{
-    width: 100%;
-}
 
 #company-feedback,
 #company-blocks{
@@ -494,6 +524,10 @@ h3{
     border: white;
 }
 
+#button-fifth-section:hover{
+    opacity: 0.8;
+}
+
 /* /fifth section */
 
 
@@ -517,7 +551,6 @@ h3{
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
 
 
 h4{
