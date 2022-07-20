@@ -247,16 +247,47 @@ h3{
     justify-content: space-between;
     border: 1px solid #d0d0d3;
     height: 200px;
-    margin-right: 10px;
     font-size: 0.8rem;
     width: 800px;
 }
 
+.enterprise{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title-enterprise{
+   margin-right: 455px; 
+}
+
+#text-enterprise{
+    margin-right: 345px;
+}
+
+#text-enterprise-2{
+    margin-left: 5px;
+    text-align: center;
+}
 .team{
     padding-top: 10px;
     width: 100%;
     border: 0.1px solid #d0d0d3;
     text-align: center;
+}
+
+#button-contatta{
+    width: 190px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #0061ff;
+    border: #0061ff;
+    color: white;
+    margin-right: 100px;
+}
+
+#button-contatta:hover{
+    opacity: 0.8;
 }
 
 /* /first section */
@@ -461,10 +492,7 @@ h3{
     color: black;
     background-color: white;
     border: white;
-    
-
 }
-
 
 /* /fifth section */
 
