@@ -57,7 +57,7 @@ a{
     color: black;
 }
 
-button{
+#button-start{
     margin-left: 20px;
     text-align: center;
     width: 55px;
@@ -65,6 +65,10 @@ button{
     color: white;
     background-color: #0061ff;
     border: #0061ff;
+}
+
+#button-start:hover{
+    opacity: 0.8;
 }
 
 .content-header{
@@ -110,6 +114,10 @@ h1{
     text-align: center;
 }
 
+#button-header:hover{
+    opacity: 0.8;
+}
+
 #img-header{
     width: 570px;
     height: 355px;
@@ -138,6 +146,7 @@ p{
     margin: 0 auto;
 }
 
+
  /* first section */
 
 .first-section{
@@ -165,7 +174,7 @@ h2{
     font-size: 0.8rem;
   }
 
-  .column-container{
+.column-container{
     margin-left: -35px;
     margin-right: -50px;
   }
@@ -252,6 +261,8 @@ h3{
 
 /* /first section */
 
+
+
 /* second section */
 
 .second-section{
@@ -293,7 +304,6 @@ h3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .card {
@@ -301,7 +311,6 @@ h3{
     width: calc(100% / 3);
     font-size: 1.0rem;
     padding-right: 60px;
-    
 }
  
 #img-section-3{
@@ -313,19 +322,184 @@ h3{
     font-size: 0.8rem;
 }
 
+
+/* /third section */
+
+/* fourth section */
+
 .fourth-section{
-    background-color: grey;
-    height: 500px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 30px;
 }
 
-.fifth-section{
-    background-color: deepskyblue;
-    height: 500px;
+#title-fourth-section{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    width: 500px;
+    height: 78px;
+    margin-right: 300px;
 }
+
+#link-fourth-section{
+    color: #0000ee;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+/* /fourth section */
+
+
+
+/* fifth section */
+
+#company-feedback{
+    background-color: #b4d0e7;
+    height: 700px;
+}
+
+.block-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback-container{
+    width: calc(100% - 27vw);
+    background-color: #f5f5f5;
+    padding: 40px;
+    min-height: 30vw;
+}
+
+#img-fifth-section{
+    width: 200px;
+    height: 100px;
+}
+
+.square{
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#company-blocks > .flex{
+    align-items: flex-start;
+}
+
+.square img{
+    width: 100%;
+}
+
+#company-feedback,
+#company-blocks{
+    height: 800px;
+}
+
+.wrap{
+    flex: wrap;
+}
+
+.type-1{
+    background-color: #a2d39b;
+}
+
+.type-2{
+    background-color: #61082b;
+}
+.type-3{
+    background-color: #0093ce;
+}
+
+.type-4{
+    background-color: #ff1c1c;
+}
+
+.type-5{
+    background-color: #d5001f;
+}
+
+.type-6{
+    background-color: #b4d0e7;
+}
+
+.type-7{
+    background-color: #0d2481;
+}
+
+.type-8{
+    background-color: #ffd830;
+}
+
+.line-fifth-section{
+    background-color: #d0d0d3;
+    margin-bottom: 30px;
+    margin-left: 2px;
+    width: 100px;
+}
+
+.sign{
+    margin-top: 30px;
+}
+
+#text-fifth-section{
+    color: #61082b;
+    margin-left: 350px;
+    margin-top: 100px;
+    width: 388px;
+    height: 78px;
+    
+}
+
+#button-fifth-section{
+    width: 190px;
+    height: 30px;
+    margin-top: 100px;
+    margin-right: 400px;
+    color: black;
+    background-color: white;
+    border: white;
+    
+
+}
+
+
+/* /fifth section */
+
+
+
+
+
+/* sixth section */
+
+.sixth-section{
+    background-color: white;
+    height: 400px;
+    width: 800px;
+}
+
+#title-sixth-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#text-sixth-section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
 
 h4{
     padding-bottom: 20px;
 }
+
+
+
+
+
 /* / MAIN */
 
 
@@ -333,9 +507,8 @@ h4{
 /* FOOTER */
 
 footer{
-    height: 60vh;
-    background-color: black;
-    
+    height: 80vh;
+    background-color: black;   
 }
 
 .container-footer{
@@ -371,9 +544,21 @@ h3{
     color: white;
     margin-bottom: 20px;
     font-size: 0.7rem;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
+.logo-footer{
+    color: #d0d0d3;
+    margin-top: 40px;
+    margin-left: 295px;
+    font-size: 0.8rem;
+}
 
+.line-footer{
+    width: 5%;
+    color: #d0d0d3;
+    margin-left: 300px;
+   
+}
 
 /* / FOOTER */
